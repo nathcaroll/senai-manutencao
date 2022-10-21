@@ -429,7 +429,7 @@ CREATE TABLE `usuario` (
   `usu_id` int(11) NOT NULL,
   `usu_nome` varchar(50) DEFAULT NULL,
   `usu_cpf` int(11) DEFAULT NULL,
-  `usu_datanasc` timestamp NOT NULL DEFAULT current_timestamp(),
+  `usu_datanasc` date NOT NULL,
   `usu_telefone` varchar(50) DEFAULT NULL,
   `usu_email` varchar(50) DEFAULT NULL,
   `usu_senha` varchar(50) DEFAULT NULL,
